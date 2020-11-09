@@ -1,0 +1,44 @@
+.form-row{
+    margin-bottom: 10px;
+}
+.container{
+    width: fit-content;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items:center;
+}
+.number_input{
+    margin-bottom: 10px;
+}
+label{
+    margin-right: 5px;
+    margin-top: 8px;
+}
+#submit_button{
+    margin-left: 208px;
+}
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 25%, rgba(235,235,235,1) 50%, rgba(82,82,82,1) 75%, rgba(0,0,0,1) 100%);
+}
+
+#input{
+    margin-top: 10%;
+    z-index: -1;
+}
+#table{
+    position: absolute;
+    top: 0;
+    left:38.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    z-index: 3;
+    visibility: hidden;
+}

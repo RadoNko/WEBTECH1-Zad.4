@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 4</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="mycss.css">
+</head>
+<body>
+
+
+    <div class="container rounded" id="input">
+        <div class="d-flex flex-row">
+            <label for="x_input">X value(1-9):</label>
+            <input type="number" class="p-2 number_input" name="x_value" id="x_input" placeholder="Enter X value:" required>
+        </div>
+        <div class="d-flex flex-row">
+            <label for="y_input">Y value(1-9):</label>
+            <input type="number" class="p-2 number_input" name="y_value" id="y_input" placeholder="Enter Y value:" required>
+        </div>
+        <div class="d-flex flex-row">
+            <button type="button" class="btn btn-primary" id="submit_button" onclick="return generateTable()">Submit</button>
+        </div>
+
+
+
+
+
+
+</div>
+
+<div class="container rounded" id="table">
+    <div class="d-flex flex-row justify-content-end">
+        <img src="img/window-close.png" onclick="closeTable()" alt="close_img">
+    </div>
+    <div class="d-flex flex-row">
+        <div class="table table-dark" id="table_area">
+        </div>
+    </div>
+
+</div>
+
+
+
+    <script src="myscripts.js"></script>
+</body>
+</html>
